@@ -105,31 +105,30 @@ body {
   border-radius: 4px;
   border-color: #32A82C;
   height:60px;
-  width:300px;
+  width:276px;
   margin-top:90px;
-  margin-left:430px;
+  margin-left: 465px;
   font-size:16px;
   font-family: 'OpenSans-Regular';
   word-spacing: 1px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
 }
 
-/*.vmturbo_content{
-  background-image: url('../images/body-bg.jpg');
+.vmturbo_content{
+  /*background-image: url('../images/body-bg.jpg');*/
   width:100%;
   padding:0px;
-}*/
+}
 
 .samsung_phone{
-  height: 466px;
-  width: 362px;
+  height: 603px;
+  width: 400px;
   margin-left: 278px;
   margin-top:100px;
 }
 
-
 .samsung_text{
-  margin-top: 122px;
+  margin-top: 128px;
   max-width:470px;
   text-align: left;
   color: white;
@@ -143,9 +142,7 @@ body {
 .samsung_text p{
   color:white;
   font-family: 'OpenSans-Light';
-
 }
-
 
 
 blockquote {
@@ -156,6 +153,7 @@ blockquote {
   margin-left:48px;
   padding-left: 2px;
   letter-spacing: 1px;
+  margin-top:-19px;
 }
 
 blockquote h3 {
@@ -183,18 +181,77 @@ blockquote h3:before {
 
 }
 
-/*
-.samsung_vr_block{
-  margin-left:240px;
+
+.samsung_vr_text{
+  margin-left:300px;
   float:left;
-  margin-top:px;
+  margin-top:71px;
+  max-width: 421px;
 }
 
 .samsung_vr{
+  width: 600px;
   margin-top: -74px;
-  margin-left:-100px;
-  float:right;
-  height:300px;
-  width:300px;
 }
-*/
+
+.samsung_vr_blockquote{
+  margin-left: 295px;
+}
+
+.grey_bar{
+  background-color:#222222;
+  height:30px;
+}
+
+.cloud{
+  margin-top: -43px;
+  height: 172px;
+  width: 186px;
+  margin-left: 630px;
+}
+
+.vm_turbo_footer{
+  background-image:url('../images/footer-bg.jpg');
+  background-repeat: no-repeat;
+  height:450px;
+}
+
+.cloud_blurb{
+  color: white;
+  margin-left: 30px;
+  margin-top: 151px;
+  text-align: center;
+  font-family: 'OpenSans-Bold';
+}
+
+.repetitive_stamp{
+  margin-left:363px;
+  margin-top:80px;
+}
+
+.stamp{
+  padding-right:30px;
+  height: 130px;
+  width: 153px;
+}
+
+.footer{
+  background-color: white;
+}
+
+.vmturbo_footer {
+  color:#B9B9AF;
+  font-size:12px;
+  margin-left:304px;
+}
+
+.footer_links a{
+  color:#B9B9AF;
+  font-size:12px;
+  text-transform: uppercase;
+}
+
+.footer_links{
+  margin-right: 270px;
+}
+
