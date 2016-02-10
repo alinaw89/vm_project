@@ -93,22 +93,22 @@ body {
 
 .desired_state img{
   height:350px;
-  width:100%;
+  /*width:100%;*/
 }
 
 .register{
   background-color: #2C9427;
-  padding:1em 2em 1em 2em;
-  color:white;
+  padding: 1em 2em 1em 2em;
+  color: white;
   text-transform: uppercase;
   text-align: center;
   border-radius: 4px;
   border-color: #32A82C;
-  height:60px;
-  width:276px;
-  margin-top:90px;
-  margin-left: 465px;
-  font-size:16px;
+  height: 51px;
+  width: 242px;
+  margin-top: 90px;
+  margin-left: 577px;
+  font-size: 13px;
   font-family: 'OpenSans-Regular';
   word-spacing: 1px;
   letter-spacing: 2px;
@@ -121,17 +121,19 @@ body {
 }
 
 .samsung_phone{
-  height: 603px;
-  width: 400px;
-  margin-left: 278px;
+  /*height: 603px;
+  width: 400px;*/
+ /* margin-left: 278px;*/
   margin-top:100px;
+  height: 587px;
+  width: 343px;
 }
 
 .samsung_text{
-  margin-top: 128px;
-  max-width:470px;
-  text-align: left;
-  color: white;
+  margin-top: 130px;
+  font-size:12px;
+  /*max-width:470px;
+  text-align: left;*/
 }
 
 .samsung_text h4{
@@ -158,7 +160,7 @@ blockquote {
 
 blockquote h3 {
   font-family: 'OpenSans-Light';
-  font-size:16px;
+  font-size:13.5px;
   color:white;
   margin-right:5px;
   line-height:22px;
@@ -176,27 +178,23 @@ blockquote h3:before {
 
 }
 
-.quote_content{
-  padding-left:20px;
-
-}
 
 
 .samsung_vr_text{
-  margin-left:300px;
-  float:left;
   margin-top:71px;
-  max-width: 421px;
+  margin-left:13px;
 }
 
 .samsung_vr{
-  width: 600px;
-  margin-top: -74px;
+  width: 367px;
+  margin-top: 17px;
+  margin-left: 0px;
 }
 
 .samsung_vr_blockquote{
-  margin-left: 295px;
+  margin-left: 10px;
 }
+
 
 .grey_bar{
   background-color:#222222;
@@ -255,14 +253,24 @@ blockquote h3:before {
   margin-right: 270px;
 }
 
-/* Large Devices, Wide Screens */
+
   @media only screen and (max-width : 1200px) {
     .register{
       margin-left:365px;
     }
+
+    /*.desired_state img{
+      height: 268px;
+      width: 73%;
+      margin-left: 140px;
+    }
+
+    .navbar_vmturbo{
+      margin-left:160px;
+    }*/
   }
 
-  /* Medium Devices, Desktops */
+
   @media only screen and (max-width : 992px) {
     .register{
       padding:1em 2em 1em 2em;
@@ -272,9 +280,16 @@ blockquote h3:before {
       margin-top:90px;
       margin-left: 248px;
     }
+
+    /*.desired_state img{
+      height: 304px;
+      width: 83%;
+      margin-left: 65px;
+    }*/
+
   }
 
-  /* Small Devices, Tablets */
+
   @media only screen and (max-width : 768px) {
     .register{
       padding:1em 2em 1em 2em;
@@ -284,9 +299,32 @@ blockquote h3:before {
       margin-top:90px;
       margin-left: 233px;
     }
+
+    /*.desired_state img {
+      height: 268px;
+      width: 76%;
+      margin-left: 72px;
+    }*/
   }
 
-  /* Extra Small Devices, Phones */
+  @media only screen and (max-width : 700px) {
+    .register{
+      padding:1em 2em 1em 2em;
+      text-align: center;
+      height:60px;
+      width:276px;
+      margin-top:90px;
+      margin-left: 233px;
+    }
+
+    /*.desired_state img {
+      height: 268px;
+      width: 76%;
+      margin-left: 72px;
+    }*/
+  }
+
+
   @media only screen and (max-width : 480px) {
     .register{
       padding:1em 2em 1em 2em;
@@ -296,4 +334,27 @@ blockquote h3:before {
       margin-top:90px;
       margin-left: 145px;
     }
+
+    .desired_state{
+      height: 236px;
+      width: 108%;
+      margin-left: -7px;
+    }
+
+    .navbar_vmturbo{
+      margin-left:40px;
+    }
   }
+
+  @media only screen and (max-width : 480px) {
+
+  }
+
+/*.desired_state img {
+    height: 268px;
+    width: 100%;
+    margin-left: -4px;
+}*/
+
+
+
