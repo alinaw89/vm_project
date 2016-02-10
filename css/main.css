@@ -255,3 +255,45 @@ blockquote h3:before {
   margin-right: 270px;
 }
 
+/* Large Devices, Wide Screens */
+  @media only screen and (max-width : 1200px) {
+    .register{
+      margin-left:365px;
+    }
+  }
+
+  /* Medium Devices, Desktops */
+  @media only screen and (max-width : 992px) {
+    .register{
+      padding:1em 2em 1em 2em;
+      text-align: center;
+      height:60px;
+      width:276px;
+      margin-top:90px;
+      margin-left: 248px;
+    }
+  }
+
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+    .register{
+      padding:1em 2em 1em 2em;
+      text-align: center;
+      height:60px;
+      width:276px;
+      margin-top:90px;
+      margin-left: 233px;
+    }
+  }
+
+  /* Extra Small Devices, Phones */
+  @media only screen and (max-width : 480px) {
+    .register{
+      padding:1em 2em 1em 2em;
+      text-align: center;
+      height:60px;
+      width:276px;
+      margin-top:90px;
+      margin-left: 145px;
+    }
+  }
