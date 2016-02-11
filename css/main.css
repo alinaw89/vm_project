@@ -111,7 +111,7 @@ body {
   border-color: #32A82C;
   height: 51px;
   width: 262px;
-  margin-top: 57px;
+  margin-top: 80px;
   font-size: 13px;
   font-family: 'OpenSans-Regular';
   word-spacing: 1px;
@@ -183,7 +183,6 @@ blockquote h3:before {
 }
 
 
-
 .samsung_vr_text{
   margin-top:71px;
   margin-left:13px;
@@ -198,7 +197,6 @@ blockquote h3:before {
 .samsung_vr_blockquote{
   margin-left: 10px;
 }
-
 
 .grey_bar{
   background-color:#222222;
@@ -227,14 +225,19 @@ blockquote h3:before {
 }
 
 .repetitive_stamp{
-  margin-left:363px;
-  margin-top:80px;
+  margin-right: 301px;
+  margin-top: 50px;
 }
 
-.stamp{
-  padding-right:30px;
-  height: 130px;
-  width: 153px;
+.repetitive_stamp ul{
+  list-style-type: none;
+  display: inline;
+}
+
+.stamp img{
+  height:137px;
+  float:right;
+  margin-left: 35px;
 }
 
 .footer{
@@ -259,71 +262,123 @@ blockquote h3:before {
 
 
 
-  @media only screen and (max-width : 1200px) {
-    /*.register{
-      margin-left:365px;
-      height: 51px;
-      width: 262px;
-      margin-top: 205px;
-      margin-left: 408px;
-    }*/
 
-    .desired_state_img{
-      width: 100%;
-      margin-left: 20px;
-      height:350px;
-    }
 
+/*Media queries*/
+
+
+@media only screen and (max-width : 1200px) {
+  .register{
+    margin-top:61px;
   }
 
-
-  @media only screen and (max-width : 992px) {
-    /*.register{
-      padding:1em 2em 1em 2em;
-      text-align: center;
-      height: 51px;
-      width: 262px;
-      margin-top: 205px;
-      margin-left: 406px;
-    }*/
+  .cloud{
+    margin-left:513px;
   }
 
-
-
-  @media only screen and (max-width : 768px) {
-    /*.register{
-      padding:1em 2em 1em 2em;
-      text-align: center;
-      height: 51px;
-      width: 239px;
-      margin-top: 204px;
-      margin-left: 234px;
-    }*/
+  .desired_state_img{
+    width: 100%;
+    margin-left: 10px;
+    height:350px;
   }
 
-
-
-  @media only screen and (max-width : 480px) {
-    /*.register{
-      padding:1em 2em 1em 2em;
-      text-align: center;
-      height: 51px;
-      width: 220px;
-      margin-top: 180px;
-      margin-left: 82px;
-    }*/
+  .repetitive_stamp{
+    margin-right: 201px;
+    margin-top: 50px;
   }
 
-    .desired_state_img{
-      width: 100%;
-      margin-left: 20px;
-      height:350px;
-    }
-
-    .navbar_vmturbo{
-      margin-left:40px;
-    }
+  .stamp img{
+    height:100px;
+    float:right;
+    margin-left: 35px;
   }
+
+}
+
+
+@media only screen and (max-width : 992px) {
+  .cloud{
+    margin-left:459px;
+  }
+
+  .stamp img{
+    height:80px;
+    float:right;
+    margin-left: 35px;
+  }
+}
+
+
+
+@media only screen and (max-width : 768px) {
+  .cloud{
+    margin-left:301px;
+  }
+
+  .register{
+    margin-top:75px;
+  }
+
+  .repetitive_stamp{
+    margin-right: 100px;
+    margin-top: 50px;
+  }
+
+  .stamp img{
+    height:80px;
+    float:right;
+    margin-left: 35px;
+  }
+}
+
+@media only screen and (max-width : 675px) {
+  .cloud{
+    margin-left:276px;
+  }
+
+  .repetitive_stamp{
+    margin-right: 105px;
+    margin-top: 50px;
+  }
+
+  .stamp img{
+    height:60px;
+    float:right;
+    margin-left: 20px;
+  }
+}
+
+
+@media only screen and (max-width : 480px) {
+  .cloud{
+    margin-left:169px;
+  }
+
+  .register{
+    margin-top:55px;
+  }
+
+  .repetitive_stamp{
+    margin-right: 61px;
+    margin-top: 50px;
+  }
+
+  .stamp img{
+    height:40px;
+    float:right;
+    margin-left: 17px;
+  }
+
+  .desired_state_img{
+    width: 100%;
+    margin-left: 20px;
+    height:350px;
+  }
+
+  .navbar_vmturbo{
+    margin-left:40px;
+  }
+}
 
 
 
