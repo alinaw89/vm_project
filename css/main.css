@@ -68,18 +68,24 @@ body {
 .jumbotron{
   background-image: url('../images/header-bg.jpg');
   background-repeat: no-repeat;
-  width:100%;
+/*  width:100%;
   height:670px;
   background-position: top 80%;
-  padding-top:50px;
+  padding-top:50px;*/
   border-bottom:5px solid #3f3f3f;
-  margin-bottom:0px;
+  /*margin-bottom:0px;*/
+  background-size:cover;
+  text-align:center;
+  width:100%;
+  height:670px;
+}
+
+.jumbotron_row{
+  margin-top:150px;
 }
 
 
-
-.header_liner p{
-  margin-top:115px;
+.jumbotron_text p{
   color:white;
   font-family: 'OpenSans-Regular';
   font-size:16px;
@@ -91,23 +97,21 @@ body {
   font-family: 'OpenSans-Light';
 }
 
-.desired_state img{
-  height:350px;
-  /*width:100%;*/
+.desired_state_img{
+  height:auto;
+  width:100%;
 }
 
 .register{
   background-color: #2C9427;
-  padding: 1em 2em 1em 2em;
   color: white;
   text-transform: uppercase;
   text-align: center;
   border-radius: 4px;
   border-color: #32A82C;
   height: 51px;
-  width: 242px;
-  margin-top: 90px;
-  margin-left: 577px;
+  width: 262px;
+  margin-top: 57px;
   font-size: 13px;
   font-family: 'OpenSans-Regular';
   word-spacing: 1px;
@@ -254,107 +258,72 @@ blockquote h3:before {
 }
 
 
+
   @media only screen and (max-width : 1200px) {
-    .register{
+    /*.register{
       margin-left:365px;
-    }
-
-    /*.desired_state img{
-      height: 268px;
-      width: 73%;
-      margin-left: 140px;
-    }
-
-    .navbar_vmturbo{
-      margin-left:160px;
+      height: 51px;
+      width: 262px;
+      margin-top: 205px;
+      margin-left: 408px;
     }*/
+
+    .desired_state_img{
+      width: 100%;
+      margin-left: 20px;
+      height:350px;
+    }
+
   }
 
 
   @media only screen and (max-width : 992px) {
-    .register{
+    /*.register{
       padding:1em 2em 1em 2em;
       text-align: center;
-      height:60px;
-      width:276px;
-      margin-top:90px;
-      margin-left: 248px;
-    }
-
-    /*.desired_state img{
-      height: 304px;
-      width: 83%;
-      margin-left: 65px;
+      height: 51px;
+      width: 262px;
+      margin-top: 205px;
+      margin-left: 406px;
     }*/
-
   }
+
 
 
   @media only screen and (max-width : 768px) {
-    .register{
+    /*.register{
       padding:1em 2em 1em 2em;
       text-align: center;
-      height:60px;
-      width:276px;
-      margin-top:90px;
-      margin-left: 233px;
-    }
-
-    /*.desired_state img {
-      height: 268px;
-      width: 76%;
-      margin-left: 72px;
+      height: 51px;
+      width: 239px;
+      margin-top: 204px;
+      margin-left: 234px;
     }*/
   }
 
-  @media only screen and (max-width : 700px) {
-    .register{
-      padding:1em 2em 1em 2em;
-      text-align: center;
-      height:60px;
-      width:276px;
-      margin-top:90px;
-      margin-left: 233px;
-    }
-
-    /*.desired_state img {
-      height: 268px;
-      width: 76%;
-      margin-left: 72px;
-    }*/
-  }
 
 
   @media only screen and (max-width : 480px) {
-    .register{
+    /*.register{
       padding:1em 2em 1em 2em;
       text-align: center;
-      height:60px;
-      width:276px;
-      margin-top:90px;
-      margin-left: 145px;
-    }
+      height: 51px;
+      width: 220px;
+      margin-top: 180px;
+      margin-left: 82px;
+    }*/
+  }
 
-    .desired_state{
-      height: 236px;
-      width: 108%;
-      margin-left: -7px;
+    .desired_state_img{
+      width: 100%;
+      margin-left: 20px;
+      height:350px;
     }
 
     .navbar_vmturbo{
       margin-left:40px;
     }
   }
-
-  @media only screen and (max-width : 480px) {
-
-  }
-
-/*.desired_state img {
-    height: 268px;
-    width: 100%;
-    margin-left: -4px;
-}*/
 
 
 
