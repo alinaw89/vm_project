@@ -1,10 +1,223 @@
 body {
- /* font-family: 'OpenSans-Bold';*/
   background-image:url('../images/body-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
+
+/*Navbar: */
+.navbar{
+ height:80px;
+}
+
+.navbar_vmturbo{
+  margin-left:270px;
+}
+
+/*Jumbotron Header:*/
+
+.jumbotron{
+  background-image: url('../images/header-bg.jpg');
+  background-repeat: no-repeat;
+  border-bottom:5px solid #3f3f3f;
+  background-size:cover;
+  text-align:center;
+  width:100%;
+  height:670px;
+}
+
+.jumbotron_row{
+  margin-top:150px;
+}
+
+
+.jumbotron_text p{
+  color:white;
+  font-family: 'OpenSans-Regular';
+  font-size:16px;
+  word-spacing: 2px;
+  letter-spacing: 2px;
+}
+
+.booth_words{
+  font-family: 'OpenSans-Light';
+}
+
+.desired_state_img{
+  height:auto;
+  width:100%;
+}
+
+.register{
+  background-color: #2C9427;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 4px;
+  border-color: #32A82C;
+  height: 51px;
+  width: 262px;
+  margin-top: 80px;
+  font-size: 13px;
+  font-family: 'OpenSans-Regular';
+  word-spacing: 1px;
+  letter-spacing: 2px;
+}
+
+/*Content:*/
+
+.vmturbo_content{
+  width:100%;
+  padding:0px;
+}
+
+.samsung_phone{
+  margin-top:100px;
+  height: 587px;
+  width: 343px;
+}
+
+.samsung_text{
+  margin-top: 130px;
+  font-size:12px;
+}
+
+.samsung_text h4{
+  color:white;
+  font-family:'OpenSans-Regular';
+}
+
+.samsung_text p{
+  color:white;
+  font-family: 'OpenSans-Light';
+}
+
+
+blockquote {
+  border:none;
+  font-family: 'OpenSans-Light';
+  position: relative;
+  max-width: 500px;
+  margin-left:48px;
+  padding-left: 2px;
+  letter-spacing: 1px;
+  margin-top:-19px;
+}
+
+blockquote h3 {
+  font-family: 'OpenSans-Light';
+  font-size:13.5px;
+  color:white;
+  margin-right:5px;
+  line-height:22px;
+}
+
+blockquote h3:before {
+  font-family: 'OpenSans-Light';
+  content: open-quote;
+  font-weight: bold;
+  font-size:100px;
+  color:white;
+  position: absolute;
+  margin-top:27px;
+  margin-left: -50px;
+}
+
+blockquote:after {
+  visibility: hidden;
+  color: #fff;
+  content: close-quote;
+}
+
+.quotestuff{
+  font-family:'Georgia', serif;
+}
+
+.samsung_vr_text{
+  margin-top:71px;
+  margin-left:13px;
+}
+
+.samsung_vr{
+  width: 367px;
+  margin-top: 17px;
+  margin-left: 0px;
+}
+
+.samsung_vr_blockquote{
+  margin-left: 10px;
+  margin-top:40px;
+}
+
+.grey_bar{
+  background-color:#222222;
+  height:30px;
+}
+
+/*Footer: */
+
+.cloud{
+  margin-top: -43px;
+  height: 172px;
+  width: 186px;
+  margin-left: 630px;
+}
+
+.vm_turbo_footer{
+  background-image:url('../images/footer-bg.jpg');
+  background-repeat: no-repeat;
+  height:450px;
+}
+
+.cloud_blurb{
+  color: white;
+  margin-left: 30px;
+  margin-top: 151px;
+  text-align: center;
+  font-family: 'OpenSans-Bold';
+}
+
+.repetitive_stamp{
+  margin-right: 301px;
+  margin-top: 50px;
+}
+
+.repetitive_stamp ul{
+  list-style-type: none;
+  display: inline;
+}
+
+.stamp img{
+  height:137px;
+  float:right;
+  margin-left: 35px;
+}
+
+/*Footer navbar*/
+.footer{
+  background-color: white;
+}
+
+.vmturbo_footer {
+  color:#B9B9AF;
+  font-size:12px;
+  margin-left:304px;
+}
+
+.footer_links a{
+  color:#B9B9AF;
+  font-size:12px;
+  text-transform: uppercase;
+}
+
+.footer_links{
+  margin-right: 270px;
+}
+
+
+
+
+/*All fonts: */
 
 @font-face {
   font-family: 'OpenSans-Bold';
@@ -56,216 +269,8 @@ body {
   src: url('../fonts/OpenSans/OpenSans-SemiboldItalic.ttf');
 }
 
-.navbar{
- /* background-color: black;*/
- height:80px;
-}
 
-.navbar_vmturbo{
-  margin-left:270px;
-}
-
-.jumbotron{
-  background-image: url('../images/header-bg.jpg');
-  background-repeat: no-repeat;
-/*  width:100%;
-  height:670px;
-  background-position: top 80%;
-  padding-top:50px;*/
-  border-bottom:5px solid #3f3f3f;
-  /*margin-bottom:0px;*/
-  background-size:cover;
-  text-align:center;
-  width:100%;
-  height:670px;
-}
-
-.jumbotron_row{
-  margin-top:150px;
-}
-
-
-.jumbotron_text p{
-  color:white;
-  font-family: 'OpenSans-Regular';
-  font-size:16px;
-  word-spacing: 2px;
-  letter-spacing: 2px;
-}
-
-.booth_words{
-  font-family: 'OpenSans-Light';
-}
-
-.desired_state_img{
-  height:auto;
-  width:100%;
-}
-
-.register{
-  background-color: #2C9427;
-  color: white;
-  text-transform: uppercase;
-  text-align: center;
-  border-radius: 4px;
-  border-color: #32A82C;
-  height: 51px;
-  width: 262px;
-  margin-top: 80px;
-  font-size: 13px;
-  font-family: 'OpenSans-Regular';
-  word-spacing: 1px;
-  letter-spacing: 2px;
-}
-
-.vmturbo_content{
-  /*background-image: url('../images/body-bg.jpg');*/
-  width:100%;
-  padding:0px;
-}
-
-.samsung_phone{
-  /*height: 603px;
-  width: 400px;*/
- /* margin-left: 278px;*/
-  margin-top:100px;
-  height: 587px;
-  width: 343px;
-}
-
-.samsung_text{
-  margin-top: 130px;
-  font-size:12px;
-  /*max-width:470px;
-  text-align: left;*/
-}
-
-.samsung_text h4{
-  color:white;
-  font-family:'OpenSans-Regular';
-}
-
-.samsung_text p{
-  color:white;
-  font-family: 'OpenSans-Light';
-}
-
-
-blockquote {
-  border:none;
-  font-family: 'OpenSans-Light';
-  position: relative;
-  max-width: 500px;
-  margin-left:48px;
-  padding-left: 2px;
-  letter-spacing: 1px;
-  margin-top:-19px;
-}
-
-blockquote h3 {
-  font-family: 'OpenSans-Light';
-  font-size:13.5px;
-  color:white;
-  margin-right:5px;
-  line-height:22px;
-}
-
-blockquote h3:before {
-  font-family: 'OpenSans-Light';
-  content: open-quote;
-  font-weight: bold;
-  font-size:100px;
-  color:white;
-  position: absolute;
-  margin-top:27px;
-  margin-left: -50px;
-
-}
-
-
-.samsung_vr_text{
-  margin-top:71px;
-  margin-left:13px;
-}
-
-.samsung_vr{
-  width: 367px;
-  margin-top: 17px;
-  margin-left: 0px;
-}
-
-.samsung_vr_blockquote{
-  margin-left: 10px;
-}
-
-.grey_bar{
-  background-color:#222222;
-  height:30px;
-}
-
-.cloud{
-  margin-top: -43px;
-  height: 172px;
-  width: 186px;
-  margin-left: 630px;
-}
-
-.vm_turbo_footer{
-  background-image:url('../images/footer-bg.jpg');
-  background-repeat: no-repeat;
-  height:450px;
-}
-
-.cloud_blurb{
-  color: white;
-  margin-left: 30px;
-  margin-top: 151px;
-  text-align: center;
-  font-family: 'OpenSans-Bold';
-}
-
-.repetitive_stamp{
-  margin-right: 301px;
-  margin-top: 50px;
-}
-
-.repetitive_stamp ul{
-  list-style-type: none;
-  display: inline;
-}
-
-.stamp img{
-  height:137px;
-  float:right;
-  margin-left: 35px;
-}
-
-.footer{
-  background-color: white;
-}
-
-.vmturbo_footer {
-  color:#B9B9AF;
-  font-size:12px;
-  margin-left:304px;
-}
-
-.footer_links a{
-  color:#B9B9AF;
-  font-size:12px;
-  text-transform: uppercase;
-}
-
-.footer_links{
-  margin-right: 270px;
-}
-
-
-
-
-
-/*Media queries*/
-
+/*Media queries: */
 
 @media only screen and (max-width : 1200px) {
   .register{
@@ -292,7 +297,6 @@ blockquote h3:before {
     float:right;
     margin-left: 35px;
   }
-
 }
 
 
