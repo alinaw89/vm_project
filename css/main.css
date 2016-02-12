@@ -5,7 +5,7 @@ body {
 }
 
 
-/*Navbar: */
+/*Navbar:*/
 .navbar{
  height:80px;
 }
@@ -154,7 +154,7 @@ blockquote:after {
   height:30px;
 }
 
-/*Footer: */
+/*Footer:*/
 
 .cloud{
   margin-top: -43px;
@@ -270,7 +270,7 @@ blockquote:after {
 }
 
 
-/*Media queries: */
+/*All media queries: */
 
 @media only screen and (max-width : 1200px) {
   .register{
